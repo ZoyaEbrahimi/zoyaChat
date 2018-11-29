@@ -1,5 +1,5 @@
 // MAke connection to server
-var socket = io.connect('https://still-escarpment-32036.herokuapp.com/');
+var socket = io.connect('https://secret-sea-98326.herokuapp.com/');
 
 //Query DOM
 var message = document.getElementById('message');
