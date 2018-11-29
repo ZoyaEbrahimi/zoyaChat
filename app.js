@@ -4,12 +4,13 @@ const socketIO = require('socket.io');
 
 //create express server
 const app = express();
+const port = process.env.PORT || 5001;
 
 // Serve static files in public folder
 app.use(express.static('public'));
 
 //Start server and listen on a port
-var server = app.listen(5001, () => {
+var server = app.listen(port, () => {
     console.log(`Server started on port 5001`);
 });
 
